@@ -1,0 +1,41 @@
+.bucket {
+	display: none;
+	align-items: center;
+	justify-content: space-between;
+	gap: 32px;
+	padding: 16px;
+	background: var(--bucket-bg);
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+}
+.info {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.button {
+	font-weight: 700;
+	padding: 8px 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	background: var(--orange-base);
+	color: var(--white-base);
+	transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+	background: var(--orange-smooth);
+	color: var(--orange-base);
+}
+
+@media (max-width: 768px) {
+	.bucket {
+		display: flex;
+	}
+}

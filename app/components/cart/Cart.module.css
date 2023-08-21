@@ -1,0 +1,39 @@
+.bucket {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	padding: 16px;
+	border-radius: 24px;
+	background: var(--bucket-bg);
+	position: fixed;
+	top: 13%;
+	right: 10%;
+	min-width: 150px;
+}
+.info {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.button {
+	font-weight: 700;
+	padding: 8px 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 40px;
+	background: var(--orange-base);
+	color: var(--white-base);
+	transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+	background: var(--orange-smooth);
+	color: var(--orange-base);
+}
+@media (max-width: 768px) {
+	.bucket {
+		display: none;
+	}
+}

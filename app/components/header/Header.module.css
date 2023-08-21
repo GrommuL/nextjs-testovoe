@@ -1,0 +1,14 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	padding: 16px;
+}
+.title {
+	font-weight: 700;
+	font-size: 32px;
+	color: var(--orange-base);
+}
+.description {
+	max-width: 343px;
+}

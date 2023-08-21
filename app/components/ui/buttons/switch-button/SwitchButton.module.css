@@ -1,0 +1,11 @@
+.button {
+	background: transparent;
+	color: var(--white-base);
+}
+.button:hover {
+	text-decoration: underline;
+}
+
+.active {
+	font-weight: 700;
+}

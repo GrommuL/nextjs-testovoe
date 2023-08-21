@@ -1,0 +1,28 @@
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 14px;
+}
+.info {
+	display: flex;
+	flex-direction: column;
+	gap: 9px;
+}
+
+.list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	flex-wrap: wrap;
+	max-width: 800px;
+}
+
+.listItem {
+	padding: 4px;
+	border: 1px var(--orange-base) solid;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}

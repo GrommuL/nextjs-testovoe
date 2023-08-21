@@ -1,0 +1,68 @@
+.item {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	border: 1px dashed transparent;
+	border-radius: 8px;
+	padding: 8px;
+	width: 350px;
+}
+
+.item:hover {
+	border: 1px dashed var(--border);
+}
+.link {
+	color: var(--white-base);
+}
+.date {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32px;
+	color: var(--white-base);
+}
+.block {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	width: fit-content;
+}
+.box svg {
+	width: 100%;
+}
+.asteroid {
+	display: flex;
+	flex-direction: column;
+}
+
+.name {
+	text-decoration: underline;
+}
+.order {
+	padding: 2px 11px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 16px;
+	background: var(--orange-smooth);
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 20px;
+	letter-spacing: 1px;
+	color: var(--orange-base);
+	transition: all 0.3s ease-in-out;
+}
+.order:hover {
+	background: var(--orange-base);
+	color: var(--white-base);
+}
+.danger {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
